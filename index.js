@@ -13,6 +13,33 @@ const questions = [
     },
     {
         type: "input",
+        name: "projectDescription",
+        message: "Please provide a description of the project"
+    },
+    {
+        type: "input",
+        name: "InstallationProcess",
+        message: "What is the installation process?"
+    },
+    {
+        type: "input",
+        name: "projectUsage",
+        message: "How will this project be used?"
+    },
+    {
+        type: "input",
+        name: "projectCredits",
+        message: "Who were the contributors to this project?"
+    },
+    /*
+    {
+        type: "input",
+        name: "contributor",
+        message: "Who created this project?"
+    },
+    */
+    {
+        type: "input",
         name: "contributor",
         message: "Who created this project?"
     },

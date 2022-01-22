@@ -31,6 +31,12 @@ function generateMarkdown(data) {
 
   return 
   `# ${data.projectTitle}
+  ### ${data.projectDescription}
+  ### ${data.installationProcess}
+  ### ${data.projectUsage}
+  ### ${data.projectCredits}
+  ### ${data.}
+  ### ${data.}
   ### ${data.contributor}
 
   ${renderLicenseSection(data.license)}
