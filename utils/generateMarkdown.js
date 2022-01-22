@@ -29,14 +29,12 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   console.log("type of data: ",typeof data, "Data: ",data)
 
-  return 
-  `# ${data.projectTitle}
+  return `
+  # ${data.projectTitle}
   ### ${data.projectDescription}
   ### ${data.installationProcess}
   ### ${data.projectUsage}
   ### ${data.projectCredits}
-  ### ${data.}
-  ### ${data.}
   ### ${data.contributor}
 
   ${renderLicenseSection(data.license)}
