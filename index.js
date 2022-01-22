@@ -18,7 +18,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "InstallationProcess",
+        name: "installationProcess",
         message: "What is the installation process?"
     },
     {
@@ -52,9 +52,6 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-/*function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), JSON.parse(data).toStringify());
-}*/
 
 function writeToFile(fileName, data) {
     return fs.writeFile(fileName, data, (err)=>{
