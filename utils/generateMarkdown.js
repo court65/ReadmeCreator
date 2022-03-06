@@ -1,9 +1,10 @@
 // TODO: 
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(license=== "None"){
-    return ""
+  if(license !== "None"){
+    return `![license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
+  return ""
 }
 
 // TODO: Create a function that returns the license link
@@ -31,15 +32,54 @@ function generateMarkdown(data) {
 
   return `
   # ${data.projectTitle}
-  ### ${data.projectDescription}
-  ### ${data.installationProcess}
-  ### ${data.projectUsage}
-  ### ${data.projectCredits}
-  ### ${data.contributor}
+  ${renderLicenseBadge(data.license)}
 
-  ${renderLicenseSection(data.license)}
+  ### Discription
+  ${data.projectDescription}
+
+  ## Table of Contents
+
+  * [Authors Name](#authorsName)
+
+  * [Authors Email](#authorsEmail)
+
+  * [Authors github](#authorsGithub)
+
+  * [Installation](#installationProcess)
+
+  * [Usage](#projectUsage)
+  ${renderLicenseLink(data.license)}
+
+  * [Additional Contributers](#projectCredits)
+
+  * [Contact Me](#contactMe)
 
 
+  ## Authors Name
+  ${data.authorsName}
+
+  ## Authors Email
+  ${data.authorsEmail}
+
+  ## Authors github
+  ${data.authorsGithub}
+
+  ## Installation
+  ${data.installationProcess}
+
+
+  ## Usage
+   ${data.projectUsage}
+   ${renderLicenseSection(data.license)}
+
+
+  ## Additional Contributers
+   ${data.projectCredits}
+
+## Contact Me
+
+For questions please contact me at ${data.authorsEmail}
+or view my github at [${data.authorsGithub}](https://github.com/${data.authorsGithub}/)
 `;
 }
 

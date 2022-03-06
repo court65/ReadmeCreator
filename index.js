@@ -18,6 +18,21 @@ const questions = [
     },
     {
         type: "input",
+        name: "authorsName",
+        message: "Please enter your name"
+    },
+    {
+        type: "input",
+        name: "authorsEmail",
+        message: "Please enter your email address"
+    },
+    {
+        type: "input",
+        name: "authorsGithub",
+        message: "Please enter your github username"
+    },
+    {
+        type: "input",
         name: "installationProcess",
         message: "What is the installation process?"
     },
@@ -30,18 +45,6 @@ const questions = [
         type: "input",
         name: "projectCredits",
         message: "Who were the contributors to this project?"
-    },
-    /*
-    {
-        type: "input",
-        name: "contributor",
-        message: "Who created this project?"
-    },
-    */
-    {
-        type: "input",
-        name: "contributor",
-        message: "Who created this project?"
     },
     {
         type: "list",
