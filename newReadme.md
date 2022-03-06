@@ -3,24 +3,25 @@
   ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ### Discription
-  Generates readMe based on user's answers
+  To generate readme for varius projects.
 
   ## Table of Contents
 
-  * [Authors Name](#authorsName)
+  * [Authors Name](#authors-name)
 
-  * [Authors Email](#authorsEmail)
+  * [Authors Email](#authors-email)
 
-  * [Authors github](#authorsGithub)
+  * [Authors Github](#authors-github)
 
-  * [Installation](#installationProcess)
+  * [Installation](#installation)
 
-  * [Usage](#projectUsage)
-  [License](#license)
+  * [Usage](#usage)
 
-  * [Additional Contributers](#projectCredits)
+  * [License](#license)
 
-  * [Contact Me](#contactMe)
+  * [Contributors](#contributors)
+
+  * [Contact](#contact)
 
 
   ## Authors Name
@@ -29,23 +30,27 @@
   ## Authors Email
   court_re@yahoo.com
 
-  ## Authors github
+  ## Authors Github
   https://github.com/court65
 
   ## Installation
-  npm i
+  npm i, node index.js
 
 
   ## Usage
-   To generate readMe for various projects
-   ##License
-    Licensed by: MIT
+   as a readMe generator for future projects
+
+   
+## License 
+
+    Licensed by: MIT 
 
 
-  ## Additional Contributers
-   No additional contributors
 
-## Contact Me
+  ## Contributors
+   no additional contributors
+
+## Contact
 
 For questions please contact me at court_re@yahoo.com
 or view my github at [https://github.com/court65](https://github.com/https://github.com/court65/)

@@ -20,8 +20,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license !== "None"){
-    return `##License
-    Licensed by: ${license}`
+    return `\n## License \n
+    Licensed by: ${license} \n`
   }
   return ""
 }
@@ -39,20 +39,21 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [Authors Name](#authorsName)
+  * [Authors Name](#authors-name)
 
-  * [Authors Email](#authorsEmail)
+  * [Authors Email](#authors-email)
 
-  * [Authors github](#authorsGithub)
+  * [Authors Github](#authors-github)
 
-  * [Installation](#installationProcess)
+  * [Installation](#installation)
 
-  * [Usage](#projectUsage)
-  ${renderLicenseLink(data.license)}
+  * [Usage](#usage)
 
-  * [Additional Contributers](#projectCredits)
+  * ${renderLicenseLink(data.license)}
 
-  * [Contact Me](#contactMe)
+  * [Contributors](#contributors)
+
+  * [Contact](#contact)
 
 
   ## Authors Name
@@ -61,7 +62,7 @@ function generateMarkdown(data) {
   ## Authors Email
   ${data.authorsEmail}
 
-  ## Authors github
+  ## Authors Github
   ${data.authorsGithub}
 
   ## Installation
@@ -70,13 +71,14 @@ function generateMarkdown(data) {
 
   ## Usage
    ${data.projectUsage}
+
    ${renderLicenseSection(data.license)}
 
 
-  ## Additional Contributers
+  ## Contributors
    ${data.projectCredits}
 
-## Contact Me
+## Contact
 
 For questions please contact me at ${data.authorsEmail}
 or view my github at [${data.authorsGithub}](https://github.com/${data.authorsGithub}/)
