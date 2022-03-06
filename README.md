@@ -1,4 +1,4 @@
-## Link to video: 
+## Link to video: https://watch.screencastify.com/v/gkSzndoKF6UoAb44DdKA
 
 
   # readMe Generator

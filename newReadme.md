@@ -1,9 +1,9 @@
 
   # readMe Generator
-  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![license](https://img.shields.io/badge/license-GPL 3.0-blue.svg)
 
   ### Discription
-  To generate readme for varius projects.
+  creates professional readMes
 
   ## Table of Contents
 
@@ -28,29 +28,29 @@
   Court Evans
 
   ## Authors Email
-  court_re@yahoo.com
+  court@mail.com
 
   ## Authors Github
-  https://github.com/court65
+  court@github.com
 
   ## Installation
-  npm i, node index.js
+  npm i
 
 
   ## Usage
-   as a readMe generator for future projects
+   To create professional readMes for my work
 
    
 ## License 
 
-    Licensed by: MIT 
+    Licensed by: GPL 3.0 
 
 
 
   ## Contributors
-   no additional contributors
+   No additional contributors
 
 ## Contact
 
-For questions please contact me at court_re@yahoo.com
-or view my github at [https://github.com/court65](https://github.com/https://github.com/court65/)
+For questions please contact me at court@mail.com
+or view my github at [court@github.com](https://github.com/court@github.com/)
