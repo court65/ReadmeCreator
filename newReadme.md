@@ -1,9 +1,9 @@
 
-  # readMe Generator
-  ![license](https://img.shields.io/badge/license-GPL 3.0-blue.svg)
+  # weatherDashboard
+  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ### Discription
-  creates professional readMes
+  By using an external API to pull weather data, it allows users to search for weather information by entering the city they want a forcast.
 
   ## Table of Contents
 
@@ -28,29 +28,29 @@
   Court Evans
 
   ## Authors Email
-  court@mail.com
+  court_re@yahoo.com
 
   ## Authors Github
-  court@github.com
+  court65
 
   ## Installation
-  npm i
+  
 
 
   ## Usage
-   To create professional readMes for my work
+   To search for weather conditions for any city.
 
    
 ## License 
 
-    Licensed by: GPL 3.0 
+    Licensed by: MIT 
 
 
 
   ## Contributors
-   No additional contributors
+   Court Evans
 
 ## Contact
 
-For questions please contact me at court@mail.com
-or view my github at [court@github.com](https://github.com/court@github.com/)
+For questions please contact me at court_re@yahoo.com
+or view my github at [court65](https://github.com/court65/)

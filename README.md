@@ -36,7 +36,7 @@
   https://github.com/court65
 
   ## Installation
-  npm i, node index.js
+  go to the root file, then, in the terminal, enter npm i, node index.js
 
 
   ## Usage
